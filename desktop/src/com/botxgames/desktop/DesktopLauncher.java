@@ -7,6 +7,8 @@ import com.botxgames.GameClass;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		config.width = 848;
+		config.height = 480;
 		new LwjglApplication(new GameClass(), config);
 	}
 }
